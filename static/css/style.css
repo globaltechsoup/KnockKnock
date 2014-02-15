@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Frijole);
+body {
+	background: white;
+	font-family: sans-serif;
+}
+
+.title {
+	text-align: center;
+	color: gray;
+	font-family: Frijole;
+	font-size: 40pt;
+	margin: 40px;
+}
+
+#welcomebox {
+	text-align: center;
+}
+
+#welcomebox > img {
+	width: 50%;
+	border-radius: 40px;
+}
+
+#signupbox {
+	text-align: center;
+	margin-top: 40px;
+}
+
+input[type=password], input[type=text] {
+	border-radius: 15px;
+	padding: .5em; 
+	outline: none;
+	font-family: inherit;
+	font-size: inherit;
+	border: 2px solid lightgray;
+}
+
+input[type=submit] {
+	font-family: inherit;
+	font-size: inherit;
+	padding: .5em; 
+	background: lightgray; 
+	background: -webkit-linear-gradient(top, white, lightgray);
+	border-radius: 15px;
+	border: 2px solid gray;
+	outline: none;
+}
+
+input[type=submit]:focus {
+	background: darkgray; 
+	background: -webkit-linear-gradient(bottom, lightgray, gray);
+}
+
+/* Other */
+
+.cool {
+	color: hotpink;
+}
